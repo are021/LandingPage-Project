@@ -46,7 +46,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding-bottom : 50px;
-    height : 350px;
+    flex-basis : 350px;
     gap : 12px;
 }
 .hero-text{
@@ -117,7 +117,7 @@ Midsection
 .items div {
     font-size : 18px;
     color : #62697a;
-    width : 200px;
+    flex-basis : 200px;
     text-align :center;
 }
 
@@ -167,7 +167,7 @@ Quote Section
 */
 
 .action{
-    height : 300px;
+    flex-basis : 300px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ Quote Section
     padding: 5px 15px;
 }
 .border{
-    width : 60em;
+    flex-basis : 60em;
     height : 5em;
     display:flex;
     justify-content: space-around;
@@ -215,7 +215,7 @@ Quote Section
     display:flex;
     justify-content: center;
     align-items: center;
-    height : 100px;
+    flex-basis : 100px;
     background-color: #1F2937;
     font-size:18px;
     color:#E5E7EB;
