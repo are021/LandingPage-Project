@@ -137,13 +137,16 @@ Quote Section
 
 .quote{
     display:flex;
-    flex-direction: column;
     padding : 20px 100px;
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    height : 350px;
-    
+    /*
+    height : 350px;    
+    max-height:100%;
+    */
+    flex-basis:350px;
+    flex-wrap:wrap;
 }
 
 .quote .the-quote{
@@ -156,11 +159,7 @@ Quote Section
     font-weight: bold;
     text-align: end;
 }
-.my-quote{
-    font-size : 36px;
-    font-style:light italic;
-    color : #1F2937;
-}
+
 
 
 /*
