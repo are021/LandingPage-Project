@@ -26,16 +26,27 @@ body{
     gap : 16px;
     align-items: center;
 }
+
 .links a{
     font-size : 18px;
     color : #E5E7EB;
     text-decoration: none;
+}
+.links a:hover{
+    color:rgb(254, 0, 0);
 }
 .logo { 
     font-size: 24px;
     color: #F9FAF8;
     display:flex;
     font-weight : bold;  
+}
+.logo a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.logo a:hover{
+    color:red;
 }
 
 /*
@@ -63,13 +74,17 @@ body{
     color : #E5E7EB;
     margin-bottom : 10px;
 }
-button, button:active { 
+button, button:active ,button:hover { 
     background-color: #3882F6;
     border-radius : 6px;
     padding : 8px;
     color : #F9FAF8;
     border : 3px solid black;
     font-size:18px;
+}
+button:hover{
+    color:red;
+    cursor:pointer;
 }
 button:active{
     border : 3px solid red;
