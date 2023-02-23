@@ -117,7 +117,7 @@ Midsection
 .items div {
     font-size : 18px;
     color : #62697a;
-    flex-basis : 200px;
+    width : 200px;
     text-align :center;
 }
 
